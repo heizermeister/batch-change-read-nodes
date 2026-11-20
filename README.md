@@ -58,7 +58,7 @@ without opening each Read node individually.
    import batch_change_read_nodes
 
    # Create a custom menu bar entry
-   custom_menu = nuke.menu('Nuke').addMenu('Custom Tools/scialpi')
+   custom_menu = nuke.menu('Nuke').addMenu('Custom Tools/misci')
 
    # Add the command with hotkey Alt + R
    custom_menu.addCommand(
@@ -73,7 +73,7 @@ without opening each Read node individually.
 ## Usage
 
 1. In the node graph, **select one or more `Read` nodes**.
-2. Press **`Alt+R`** (or use *Custom Tools → scialpi → Batch Change Read Nodes*).
+2. Press **`Alt+R`** (or use *Custom Tools → misci → Batch Change Read Nodes*).
 3. Set any field you want to change. Fields left at `-- keep value --` are
    untouched.
 4. Click **OK** to apply to every selected Read node.
